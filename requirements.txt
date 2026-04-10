@@ -1,0 +1,12 @@
+flask
+gunicorn
+python-dotenv
+requests
+chromadb
+sentence-transformers
+torch
+transformers
+groq
+pdfplumber
+lxml
+spacy

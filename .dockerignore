@@ -1,0 +1,32 @@
+# ── Raw source data — never deployed ─────────────────────────────────────────
+data/raw/
+data/interim/
+data/processed/
+data/vector/
+
+# ── Training-only model artifacts (not needed for inference) ─────────────────
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+
+# ── Pipeline scripts — not needed at runtime ──────────────────────────────────
+process_company.py
+XBRL/
+
+# ── Zipped archives ───────────────────────────────────────────────────────────
+*.zip
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ── Dev/OS junk ───────────────────────────────────────────────────────────────
+.DS_Store
+.env
+*.log
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+.git/
+.gitignore

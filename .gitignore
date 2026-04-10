@@ -1,0 +1,31 @@
+# Raw data — never commit
+data/raw/
+data/interim/
+data/processed/
+data/vector/
+
+# Training artifacts not needed for inference
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment & secrets
+.env
+
+# OS
+.DS_Store
+*.log
+
+# Pipeline scratch
+pipeline_run.log
+rebuild_rag.log
+app.zip
+pipelines.zip
+
+XBRL/
